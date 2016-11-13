@@ -1,0 +1,12 @@
+servicios\SLRates.class
+servicios\SLAdministrators.class
+servicios\ExampleApplication.class
+servicios\SLUsers.class
+servicios\PruebaRest.class
+servicios\CORSFilter.class
+servicios\PruebaJNDI.class
+servicios\SLProviders.class
+servicios\SLReports.class
+com\thejavageek\jaxrs\HelloWorldService.class
+servicios\SLScheduler.class
+servicios\SLServices.class
