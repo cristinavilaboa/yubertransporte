@@ -5,17 +5,17 @@
  <session-factory>
   <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
   
-  <!--  CONEXION LOCAL
+  <!--  CONEXION LOCAL -->
   <property name="hibernate.connection.password">pRyg1o!a</property>
   <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/Prueba</property>
   <property name="hibernate.connection.username">postgres</property>
-  -->
   
-  <!-- CONEXION HEROKU -->
+  
+  <!-- CONEXION HEROKU
   <property name="hibernate.connection.password">CDarGNPQLNXTBQ5oL-HCOVlPj1</property>
   <property name="hibernate.connection.url">jdbc:postgresql://ec2-54-83-44-229.compute-1.amazonaws.com:5432/den3oa81hsn2v1</property>
   <property name="hibernate.connection.username">dztvhahjjfgtxb</property>
- <!--  -->
+ -->
   
   
   <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>

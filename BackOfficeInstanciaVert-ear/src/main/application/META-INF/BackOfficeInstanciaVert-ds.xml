@@ -24,22 +24,23 @@
       this in META-INF/persistence.xml -->
   <datasource jndi-name="java:jboss/datasources/BackOfficePostgres" pool-name="BackOffice"
         enabled="true" use-java-context="true">
-        <!-- CONEXION LOCAL 
+        <!-- CONEXION LOCAL -->
         <connection-url>jdbc:postgresql://localhost:5432/Prueba</connection-url>
         <driver> postgres </driver>
         <security>
             <user-name>postgres</user-name>
             <password>pRyg1o!a</password>
         </security>
-         -->
+       
          
-         <!-- CONEXION REMOTA -->
+         <!-- CONEXION REMOTA
         <connection-url>jdbc:postgresql://ec2-54-83-44-229.compute-1.amazonaws.com:5432/den3oa81hsn2v1</connection-url>
         <driver> postgres </driver>
         <security>
             <user-name>dztvhahjjfgtxb</user-name>
             <password>CDarGNPQLNXTBQ5oL-HCOVlPj1</password>
         </security>
+        -->
     </datasource>    
 </datasources>
  
